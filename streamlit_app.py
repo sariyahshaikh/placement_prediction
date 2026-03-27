@@ -10,6 +10,7 @@ projects=st.slider("Projects",0,5,2)
 
 if st.button("Predict"):
     url="http://127.0.0.1:5000/predict"
+    url="https://placement-prediction-1-adty.onrender.com/predict"
 
     data={
         "cgpa":cgpa,
